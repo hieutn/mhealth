@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (3.4.1)
+  - AlamofireNetworkActivityIndicator (1.0.1):
+    - Alamofire (~> 3.3)
+  - AlamofireObjectMapper (3.0.0):
+    - Alamofire (~> 3.2)
+    - ObjectMapper (~> 1.0)
+  - HexColors (2.3.0)
+  - KVOController (1.1.0)
+  - ObjectMapper (1.3.0)
+  - ReachabilitySwift (2.3.3)
+  - Realm (1.0.1):
+    - Realm/Headers (= 1.0.1)
+  - Realm/Headers (1.0.1)
+  - RealmSwift (1.0.1):
+    - Realm (= 1.0.1)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SVProgressHUD (2.0.3)
+  - TSMessages (0.9.13):
+    - HexColors (~> 2.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireNetworkActivityIndicator
+  - AlamofireObjectMapper
+  - KVOController
+  - ReachabilitySwift
+  - RealmSwift
+  - SDWebImage
+  - SVProgressHUD
+  - TSMessages (from `https://github.com/KrauseFx/TSMessages.git`)
+
+EXTERNAL SOURCES:
+  TSMessages:
+    :git: https://github.com/KrauseFx/TSMessages.git
+
+CHECKOUT OPTIONS:
+  TSMessages:
+    :commit: e63f23304f781dcadbac31e6d338f3105fb3cd78
+    :git: https://github.com/KrauseFx/TSMessages.git
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AlamofireNetworkActivityIndicator: 49a6e39afb947136f7b1872bae2d684957c26697
+  AlamofireObjectMapper: 2d16585d06177be0116d76de73497e77437798af
+  HexColors: 6ad3947c3447a055a3aa8efa859def096351fe5f
+  KVOController: 321b5fc59300fcaabd42c0f679baa7a27efbb2fd
+  ObjectMapper: 4eb08a726e9791a93b2632049951b56a7c17e471
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  Realm: 2e15e39d35b08abb529e212ed5d8af107b5236c8
+  RealmSwift: d73ea2af08c3676dbdd5e4b669651a0f492162a4
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  TSMessages: 6e403b790139636c15ab4f51946537095e03e79c
+
+PODFILE CHECKSUM: 0577db1334341beae6e0a244a1d6c4367730d638
+
+COCOAPODS: 1.0.1
